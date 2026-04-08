@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text, TextInput, StyleSheet } from "react-native";
 
-// O componente aceita props para label, placeholder, valor e a função de mudança [cite: 9, 10, 11, 12, 13]
 const InputWithLabel = ({
   label,
   placeholder,
@@ -17,7 +16,7 @@ const InputWithLabel = ({
         placeholder={placeholder}
         value={value}
         onChangeText={onChangeText}
-        secureTextEntry={secureTextEntry} // Usado para esconder a senha [cite: 19]
+        secureTextEntry={secureTextEntry}
       />
     </View>
   );
