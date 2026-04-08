@@ -2,11 +2,11 @@
 Este repositório contém a jornada de desenvolvimento do aplicativo Woofstagram, construído com React Native. O projeto evoluiu de um simples formulário de cadastro para uma rede social funcional com navegação e componentes reutilizáveis.
 # O projeto foi dividido em três grandes partes:
 1. Projeto 7: Formulários e Validação
-   #Implementação de formulários robustos utilizando a biblioteca Formik.
+   # Implementação de formulários robustos utilizando a biblioteca Formik.
 
-   #Criação do componente customizado InputWithLabel para padronização visual.
+   # Criação do componente customizado InputWithLabel para padronização visual.
 
-   #Gerenciamento de estados de input e lógica de submissão de dados.
+   # Gerenciamento de estados de input e lógica de submissão de dados.
 
 2. Projeto 8: Componentização e Listas (HomeScreen)
 Criação de uma biblioteca de componentes de UI (Avatar, Heading, WoofCard, WoofPost).
