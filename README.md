@@ -1,7 +1,7 @@
 # 🐾 Woofstagram
 
 Este repositório contém a jornada de desenvolvimento do aplicativo Woofstagram, construído com React Native. O projeto evoluiu de um simples formulário de cadastro para uma rede social funcional com navegação e componentes reutilizáveis.
-# O projeto foi dividido em três partes:
+#O projeto foi dividido em três partes:
 
 # 1. Projeto 7: Formulários e Validação
 
