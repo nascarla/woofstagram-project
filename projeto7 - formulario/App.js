@@ -15,7 +15,7 @@ export default function App() {
         raca: "",
         brinquedo: "",
       }}
-      // 2. Lógica de envio e validação de senha [cite: 38, 39]
+      
       onSubmit={(values) => {
         if (values.senha !== values.confirmarSenha) {
           alert("As senhas não coincidem!");
@@ -24,7 +24,7 @@ export default function App() {
         }
       }}
     >
-      {/* 3. Função de renderização com as ferramentas do Formik [cite: 33, 35] */}
+     
       {({ handleChange, handleSubmit, values }) => (
         <ScrollView style={styles.screen}>
           <Text style={styles.title}>Woofstagram 🐾</Text>
@@ -32,14 +32,14 @@ export default function App() {
           <InputWithLabel
             label="E-mail"
             placeholder="exemplo@pet.com"
-            value={values.email} // Usa o valor do Formik [cite: 37]
+            value={values.email} 
             onChangeText={handleChange("email")} // Função do Formik [cite: 37]
           />
 
           <InputWithLabel
             label="Senha"
             placeholder="******"
-            secureTextEntry={true} // Esconde o valor digitado [cite: 18, 19]
+            secureTextEntry={true}
             value={values.senha}
             onChangeText={handleChange("senha")}
           />
