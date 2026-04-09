@@ -36,7 +36,6 @@ export const WoofPost = ({ image, title, description }) => (
 
 // Estilos centralizados
 const styles = StyleSheet.create({
-  // Estilos do Passo 1
   avatar: { width: 64, height: 64, borderRadius: 32 },
   heading: {
     fontSize: 24,
